@@ -1,17 +1,17 @@
 import "./testimonials.scss";
-import tomDurden from "../../assets/tomdurden.webp";
+import tomHardy from "../../assets/118051-1537567878.jpg";
 import alexK from "../../assets/alexkalinski.jpeg";
-import martinH from "../../assets/martinharold.webp";
+import steveJobs from "../../assets/stevejobs.jpg";
 import right from "../../assets/angle-right.svg";
 
 export default function testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
+      name: "Tom Hardy",
       title: "Senior Developer",
-      img: { tomDurden },
-      icon: "assets/twitter.png",
+      img: { tomHardy },
+      icon: "../../assets/twitter-alt-square.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
     },
     {
@@ -19,7 +19,7 @@ export default function testimonials() {
       name: "Alex Kalinski",
       title: "Co-Founder of DELKA",
       img: { alexK },
-      icon: "assets/youtube.png",
+      icon: "../../assets/youtube.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
       featured: true,
     },
@@ -27,8 +27,8 @@ export default function testimonials() {
       id: 3,
       name: "Martin Harold",
       title: "CEO of ALBI",
-      img: { martinH },
-      icon: "assets/linkedin.png",
+      img: { steveJobs },
+      icon: "../../assets/linkedin.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
     },
   ];
